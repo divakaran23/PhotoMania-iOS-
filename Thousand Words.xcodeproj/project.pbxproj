@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5659076C1981EBAB00AAE29D /* astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5659076B1981EBAB00AAE29D /* astronaut.jpg */; };
+		5659076F1981EC3200AAE29D /* DJPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5659076E1981EC3200AAE29D /* DJPhotoCollectionViewCell.m */; };
+		56590772198239CA00AAE29D /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 56590771198239CA00AAE29D /* Album.m */; };
+		56590775198239CB00AAE29D /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 56590774198239CB00AAE29D /* Photo.m */; };
+		565907791982425B00AAE29D /* DJPictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 565907781982425B00AAE29D /* DJPictureDataTransformer.m */; };
+		567459FD197FB30B00163BCF /* DJCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 567459FC197FB30B00163BCF /* DJCoreDataHelper.m */; };
+		567DBEDC1980901C000EFCE6 /* DJPhotoCollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567DBEDB1980901C000EFCE6 /* DJPhotoCollectionsViewController.m */; };
+		56ADE5131983546C0025FED9 /* DJPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ADE5121983546C0025FED9 /* DJPhotoDetailViewController.m */; };
+		56ADE51C1983AF730025FED9 /* DJFiltersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ADE51B1983AF730025FED9 /* DJFiltersCollectionViewController.m */; };
 		56ED2BB0197D0F3A0071BD5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED2BAF197D0F3A0071BD5E /* Foundation.framework */; };
 		56ED2BB2197D0F3A0071BD5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED2BB1197D0F3A0071BD5E /* CoreGraphics.framework */; };
 		56ED2BB4197D0F3A0071BD5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED2BB3197D0F3A0071BD5E /* UIKit.framework */; };
@@ -22,6 +31,8 @@
 		56ED2BD1197D0F3A0071BD5E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED2BB5197D0F3A0071BD5E /* CoreData.framework */; };
 		56ED2BD9197D0F3A0071BD5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56ED2BD7197D0F3A0071BD5E /* InfoPlist.strings */; };
 		56ED2BDB197D0F3A0071BD5E /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED2BDA197D0F3A0071BD5E /* Thousand_WordsTests.m */; };
+		56ED2BE5197D142F0071BD5E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ED2BE4197D142F0071BD5E /* Storyboard.storyboard */; };
+		56ED2BE8197D14ED0071BD5E /* DJAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED2BE7197D14ED0071BD5E /* DJAlbumTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5659076B1981EBAB00AAE29D /* astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astronaut.jpg; sourceTree = "<group>"; };
+		5659076D1981EC3200AAE29D /* DJPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		5659076E1981EC3200AAE29D /* DJPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		56590770198239CA00AAE29D /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		56590771198239CA00AAE29D /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		56590773198239CB00AAE29D /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		56590774198239CB00AAE29D /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		565907771982425B00AAE29D /* DJPictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPictureDataTransformer.h; sourceTree = "<group>"; };
+		565907781982425B00AAE29D /* DJPictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPictureDataTransformer.m; sourceTree = "<group>"; };
+		567459FB197FB30B00163BCF /* DJCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCoreDataHelper.h; sourceTree = "<group>"; };
+		567459FC197FB30B00163BCF /* DJCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCoreDataHelper.m; sourceTree = "<group>"; };
+		567DBEDA1980901C000EFCE6 /* DJPhotoCollectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPhotoCollectionsViewController.h; sourceTree = "<group>"; };
+		567DBEDB1980901C000EFCE6 /* DJPhotoCollectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPhotoCollectionsViewController.m; sourceTree = "<group>"; };
+		56ADE5111983546C0025FED9 /* DJPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPhotoDetailViewController.h; sourceTree = "<group>"; };
+		56ADE5121983546C0025FED9 /* DJPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPhotoDetailViewController.m; sourceTree = "<group>"; };
+		56ADE51A1983AF730025FED9 /* DJFiltersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJFiltersCollectionViewController.h; sourceTree = "<group>"; };
+		56ADE51B1983AF730025FED9 /* DJFiltersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJFiltersCollectionViewController.m; sourceTree = "<group>"; };
 		56ED2BAC197D0F3A0071BD5E /* Thousand Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thousand Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ED2BAF197D0F3A0071BD5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56ED2BB1197D0F3A0071BD5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +81,9 @@
 		56ED2BD6197D0F3A0071BD5E /* Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
 		56ED2BD8197D0F3A0071BD5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56ED2BDA197D0F3A0071BD5E /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		56ED2BE4197D142F0071BD5E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		56ED2BE6197D14ED0071BD5E /* DJAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAlbumTableViewController.h; sourceTree = "<group>"; };
+		56ED2BE7197D14ED0071BD5E /* DJAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJAlbumTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +112,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56590776198239F100AAE29D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				56ED2BC3197D0F3A0071BD5E /* Thousand_Words.xcdatamodeld */,
+				56590770198239CA00AAE29D /* Album.h */,
+				56590771198239CA00AAE29D /* Album.m */,
+				56590773198239CB00AAE29D /* Photo.h */,
+				56590774198239CB00AAE29D /* Photo.m */,
+				565907771982425B00AAE29D /* DJPictureDataTransformer.h */,
+				565907781982425B00AAE29D /* DJPictureDataTransformer.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 		56ED2BA3197D0F3A0071BD5E = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +160,21 @@
 		56ED2BB7197D0F3A0071BD5E /* Thousand Words */ = {
 			isa = PBXGroup;
 			children = (
-				56ED2BC0197D0F3A0071BD5E /* DJAppDelegate.h */,
-				56ED2BC1197D0F3A0071BD5E /* DJAppDelegate.m */,
+				56ED2BE4197D142F0071BD5E /* Storyboard.storyboard */,
+				56ADE51A1983AF730025FED9 /* DJFiltersCollectionViewController.h */,
+				56ADE51B1983AF730025FED9 /* DJFiltersCollectionViewController.m */,
+				56ADE5111983546C0025FED9 /* DJPhotoDetailViewController.h */,
+				56ADE5121983546C0025FED9 /* DJPhotoDetailViewController.m */,
+				56ED2BE6197D14ED0071BD5E /* DJAlbumTableViewController.h */,
+				56ED2BE7197D14ED0071BD5E /* DJAlbumTableViewController.m */,
+				5659076D1981EC3200AAE29D /* DJPhotoCollectionViewCell.h */,
+				5659076E1981EC3200AAE29D /* DJPhotoCollectionViewCell.m */,
+				567DBEDA1980901C000EFCE6 /* DJPhotoCollectionsViewController.h */,
+				567DBEDB1980901C000EFCE6 /* DJPhotoCollectionsViewController.m */,
+				567459FB197FB30B00163BCF /* DJCoreDataHelper.h */,
+				567459FC197FB30B00163BCF /* DJCoreDataHelper.m */,
 				56ED2BC6197D0F3A0071BD5E /* Images.xcassets */,
-				56ED2BC3197D0F3A0071BD5E /* Thousand_Words.xcdatamodeld */,
+				56590776198239F100AAE29D /* Core Data */,
 				56ED2BB8197D0F3A0071BD5E /* Supporting Files */,
 			);
 			path = "Thousand Words";
@@ -127,6 +183,9 @@
 		56ED2BB8197D0F3A0071BD5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5659076B1981EBAB00AAE29D /* astronaut.jpg */,
+				56ED2BC0197D0F3A0071BD5E /* DJAppDelegate.h */,
+				56ED2BC1197D0F3A0071BD5E /* DJAppDelegate.m */,
 				56ED2BB9197D0F3A0071BD5E /* Thousand Words-Info.plist */,
 				56ED2BBA197D0F3A0071BD5E /* InfoPlist.strings */,
 				56ED2BBD197D0F3A0071BD5E /* main.m */,
@@ -229,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56ED2BBC197D0F3A0071BD5E /* InfoPlist.strings in Resources */,
+				5659076C1981EBAB00AAE29D /* astronaut.jpg in Resources */,
 				56ED2BC7197D0F3A0071BD5E /* Images.xcassets in Resources */,
+				56ED2BE5197D142F0071BD5E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +310,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				56ED2BC2197D0F3A0071BD5E /* DJAppDelegate.m in Sources */,
+				56ED2BE8197D14ED0071BD5E /* DJAlbumTableViewController.m in Sources */,
 				56ED2BBE197D0F3A0071BD5E /* main.m in Sources */,
+				56590775198239CB00AAE29D /* Photo.m in Sources */,
+				56ADE51C1983AF730025FED9 /* DJFiltersCollectionViewController.m in Sources */,
+				56590772198239CA00AAE29D /* Album.m in Sources */,
+				56ADE5131983546C0025FED9 /* DJPhotoDetailViewController.m in Sources */,
+				567DBEDC1980901C000EFCE6 /* DJPhotoCollectionsViewController.m in Sources */,
+				565907791982425B00AAE29D /* DJPictureDataTransformer.m in Sources */,
+				5659076F1981EC3200AAE29D /* DJPhotoCollectionViewCell.m in Sources */,
+				567459FD197FB30B00163BCF /* DJCoreDataHelper.m in Sources */,
 				56ED2BC5197D0F3A0071BD5E /* Thousand_Words.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +517,7 @@
 				56ED2BE0197D0F3A0071BD5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56ED2BE1197D0F3A0071BD5E /* Build configuration list for PBXNativeTarget "Thousand WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +526,7 @@
 				56ED2BE3197D0F3A0071BD5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
